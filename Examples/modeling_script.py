@@ -469,10 +469,10 @@ def prepare_log(model_list, out_file_name):
         aa_number = model_list[model][2]
         angles = model_list[model][3]
 
-        line = '{:<2}  {:<20} {:<8.3f} {} {}\n'
-
-        line.format(model + 1, model_name, distance, aa_number, angles)
-
+        line = '{:<3}  {:<20} {:<8.2f} {} {}\n'.format(model + 1, model_name,
+                                                       distance, aa_number,
+                                                       angles)
+        
         out_file.write(line)
 
         models_name.append(model_name)
