@@ -2,7 +2,7 @@
 
 Overview
 
-This code was used to model alpha helices vy maniputation of dihedral angles.
+This code was used to model alpha helices by maniputation of dihedral angles.
 
 
 Using This Code:
